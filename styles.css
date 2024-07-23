@@ -1,0 +1,73 @@
+/* Estilos adicionales si son necesarios */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* Remove the extra closing curly brace */
+}
+
+.post {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.icon-html5 {
+  font-size: 24px;
+  color: #000;
+}
+
+.flex-end-full-width {
+  font-size: 20px;
+  color: #000;
+}
+
+.post-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-body {
+  padding: 15px;
+}
+
+.post-icons {
+  padding: 0px px; /* Ajusta el padding según sea necesario */
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5px;
+}
+
+.icons-left i,
+.icons-right i {
+  font-size: 24px;
+  margin-right: 5px;
+  color: #000;
+}
+
+.icons-right i {
+  margin-right: 0;
+}
+.far {
+  color: #000;
+}
