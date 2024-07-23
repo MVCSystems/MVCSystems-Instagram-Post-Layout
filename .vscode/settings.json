@@ -1,7 +1,30 @@
 {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "workbench.editorAssociations": {   
-        "*.md": "vscode.markdown.preview.editor"
-    }
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "cSpell.words": [
+    "accusantium",
+    "adipisicing",
+    "amet",
+    "aperiam",
+    "consectetur",
+    "cumque",
+    "cupiditate",
+    "delectus",
+    "distinctio",
+    "dolorum",
+    "elit",
+    "excepturi",
+    "exercitationem",
+    "explicabo",
+    "impedit",
+    "ipsa",
+    "odit",
+    "pariatur",
+    "quis",
+    "repellendus",
+    "tempora"
+  ]
 }
