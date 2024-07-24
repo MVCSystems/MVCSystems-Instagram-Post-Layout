@@ -1,16 +1,17 @@
-/* Estilos adicionales si son necesarios */
+/* Importación de la fuente Roboto Condensed */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* Estilos generales del cuerpo */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto Condensed", Arial, sans-serif; /* Aplicación de la fuente Roboto Condensed */
   background-color: #fafafa;
   margin: 0;
   padding: 20px;
   display: flex;
   justify-content: center;
-  /* Remove the extra closing curly brace */
 }
 
+/* Estilos para el contenedor del post */
 .post {
   width: 100%;
   max-width: 500px;
@@ -20,37 +21,52 @@ body {
   border-radius: 5px;
 }
 
+/* Estilos para el encabezado del post */
 .post-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 15px;
 }
-
+.icon-left {
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+}
 .icon-html5 {
-  font-size: 30px;
+  font-size: 36px;
   color: #000;
 }
-
-.flex-end-full-width {
-  font-size: 20px;
-  color: #000;
+.text-container {
+  flex: 0; /* Ocupa el espacio restante */
 }
 
+.text-container strong {
+  font-size: 18px;
+  color: #000;
+}
+.text-container span {
+  font-size: 14px;
+  color: #000;
+}
+.icon-right {
+  margin-left: auto; /* Mueve icon-right a la derecha */
+}
+
+.icon-right i {
+  font-size: 24px;
+  color: #000;
+}
 .post-img img {
   width: 100%;
   height: auto;
   display: block;
 }
 
+/* Estilos para el cuerpo del post */
 .post-body {
   padding: 15px;
 }
 
-.post-icons {
-  padding: 0px px; /* Ajusta el padding según sea necesario */
-}
-
+/* Estilos para los íconos de interacción */
 .icons-container {
   display: flex;
   justify-content: space-between;
@@ -61,13 +77,13 @@ body {
 .icons-left i,
 .icons-right i {
   font-size: 24px;
-  margin-right: 5px;
   color: #000;
+  cursor: pointer; /* Cambia el cursor a un puntero al pasar por encima */
 }
-
-.icons-right i {
-  margin-right: 0;
+.icons-left i {
+  margin-left: 0;
 }
+/* Estilos para los íconos de interacción en gris */
 .far {
-  color: #000;
+  color: #999; /* Color gris para los íconos inactivos */
 }
